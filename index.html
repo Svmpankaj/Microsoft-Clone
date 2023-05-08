@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <link rel="stylesheet" href="/style.css" />
     <title>Microsoft - Cloud, Computers, Apps &amp; Gaming</title>
-    <link rel="stylesheet" href="/assets/index-d252c83f.css">
   </head>
   <body>
     <div class="navbar flex justify-between items-center p-4">
@@ -16,13 +15,15 @@
           <div class="line h-0.5 w-6 my-1 bg-black"></div>
           <div class="line h-0.5 w-6 my-1 bg-black"></div>
         </div>
-        <div class="search md:hidden">Search</div>
+        <div class="search md:hidden">SearchIcon</div>
       </div>
 
       <div class="logo text-center flex md:order-1">
         <div>Microsoft</div>
 
-        <div class="feature md:flex mx-4 space-x-2">
+        <div
+          class="features absolute md:static bg-gray-200 md:w-auto md:bg-white inset-0 w-fit md:flex mx-4 md:space-x-2 -translate-x-96 md:translate-x-0"
+        >
           <div class="fitem">Microsoft 365</div>
           <div class="fitem">Office</div>
           <div class="fitem">Windows</div>
@@ -34,6 +35,19 @@
       <div class="cart text-center md:order-3 flex">
         <div class="search hidden md:block">All microsoft SearchIcon</div>
         <div>Cart Acoount</div>
+      </div>
+    </div>
+
+    <div class="slider flex flex-col-reverse md:flex-row bg-gray-400">
+      <div class="left">
+        <h1 class="text-4xl">Surface Laptop 4</h1>
+        <p>
+          Do it all with perfect balance of sleek, ultra-thin design,
+          multitasking speed and improved performance
+        </p>
+      </div>
+      <div class="right">
+        <img src="assets/ms.webp" alt="" />
       </div>
     </div>
   </body>
